@@ -2,7 +2,7 @@ import faruque from '../../../assets/teachers/omar_faruk.jpg'
 
 const Cards = () => {
     return (
-        <div className='py-20 bg-blue-50 dark:bg-gray-900  '>
+        <div className='py-20 bg-blue-50 dark:bg-gray-700  '>
 
             <div className="grid grid-cols-1 gap-8 md:grid-cols-3 container mx-auto ">
             <div className=" p-6 rounded-xl shadow-xl bg-white dark:bg-gray-900 dark:text-gray-50">
