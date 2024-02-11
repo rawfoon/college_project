@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = () => {
     return (
-        <div className='bg-gray-800'>
+        <div className='bg-gray-800 text-white'>
             <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 ">
 	<div className="flex flex-col justify-between">
 		<div className="space-y-2">
@@ -24,7 +24,7 @@ const Contacts = () => {
 			<label for="message" className="text-sm">Message</label>
 			<textarea id="message" rows="3" className="w-full p-3 rounded border-gray-300 border dark:bg-gray-800"></textarea>
 		</div>
-		<button type="submit" className="w-full p-3 text-sm font-bold tracki uppercase rounded dark:bg-violet-400 dark:text-gray-900">Send Message</button>
+		<button type="submit" className="w-full p-3 text-sm font-bold tracki uppercase rounded  bg-violet-400 hover:bg-violet-500 text-gray-900">Send Message</button>
 	</form>
 </div>
         </div>
