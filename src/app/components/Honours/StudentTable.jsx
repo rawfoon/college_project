@@ -26,7 +26,7 @@ const StudentTable = ({props}) => {
 					<th className="p-3">Roll</th>
 					<th className="p-3">Name</th>
 					<th className="p-3">Email</th>
-					<th className="p-3">Present</th>
+					<th className="p-3">Attendece</th>
 					<th className="p-3 text-right">Phone</th>
 					{/* <th className="p-3">Status</th> */}
 				</tr>

@@ -26,6 +26,10 @@ const Navbar = () => {
             "name":"Contacts",
             "path": "/contacts"
         },
+        {
+            "name":"Notice",
+            "path": "/notice"
+        },
     
     ]
     // console.log(navdata[1]);
@@ -36,7 +40,7 @@ const Navbar = () => {
 
 
 
-        <nav className=' bg-lime-300  h-12 fixed w-full z-50 '>
+        <nav className=' bg-lime-300  h-12 fixed  w-full top-0 z-50 '>
             <div className='container mx-auto flex justify-between items-center'>
                 <div className=''>
                     <h1 className=' text-3xl text-orange-400'>Math dept</h1>
